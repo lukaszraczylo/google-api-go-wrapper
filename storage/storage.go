@@ -8,8 +8,8 @@ import (
 	"os"
 
 	GCP "cloud.google.com/go/storage"
+	SDK "cloud.google.com/go/storage"
 	"google.golang.org/api/option"
-	SDK "google.golang.org/api/storage/v1"
 
 	"github.com/evalphobia/google-api-go-wrapper/config"
 	"github.com/evalphobia/google-api-go-wrapper/log"
