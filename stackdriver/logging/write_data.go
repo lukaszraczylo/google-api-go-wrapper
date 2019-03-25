@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
+	SDK "cloud.google.com/go/logging"
 	"google.golang.org/api/googleapi"
-	SDK "google.golang.org/api/logging/v2"
 )
 
 // WriteData is data struct for LogEntry data.

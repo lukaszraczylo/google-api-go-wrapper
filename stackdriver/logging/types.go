@@ -1,6 +1,6 @@
 package logging
 
-import SDK "google.golang.org/api/logging/v2"
+import SDK "cloud.google.com/go/logging"
 
 // Resource is wrapper struct for SDK.MonitoredResource.
 type Resource struct {
