@@ -7,7 +7,7 @@ import (
 	SDK "google.golang.org/api/cloudtrace/v1"
 	"google.golang.org/api/option"
 
-	"github.com/evalphobia/google-api-go-wrapper/config"
+	"github.com/lukaszraczylo/google-api-go-wrapper/config"
 )
 
 const (

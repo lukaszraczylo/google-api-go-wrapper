@@ -11,8 +11,8 @@ import (
 	SDK "cloud.google.com/go/storage"
 	"google.golang.org/api/option"
 
-	"github.com/evalphobia/google-api-go-wrapper/config"
-	"github.com/evalphobia/google-api-go-wrapper/log"
+	"github.com/lukaszraczylo/google-api-go-wrapper/config"
+	"github.com/lukaszraczylo/google-api-go-wrapper/log"
 )
 
 const (

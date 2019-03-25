@@ -5,8 +5,8 @@ import (
 
 	SDK "google.golang.org/api/analytics/v3"
 
-	"github.com/evalphobia/google-api-go-wrapper/config"
-	"github.com/evalphobia/google-api-go-wrapper/log"
+	"github.com/lukaszraczylo/google-api-go-wrapper/config"
+	"github.com/lukaszraczylo/google-api-go-wrapper/log"
 )
 
 const (

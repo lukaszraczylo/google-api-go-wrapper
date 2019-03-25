@@ -8,8 +8,8 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/evalphobia/google-api-go-wrapper/config"
-	"github.com/evalphobia/google-api-go-wrapper/stackdriver/monitoring"
+	"github.com/lukaszraczylo/google-api-go-wrapper/config"
+	"github.com/lukaszraczylo/google-api-go-wrapper/stackdriver/monitoring"
 )
 
 func main() {

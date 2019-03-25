@@ -1,7 +1,7 @@
 package bigquery
 
 import (
-	"github.com/evalphobia/google-api-go-wrapper/config"
+	"github.com/lukaszraczylo/google-api-go-wrapper/config"
 )
 
 // DatasetAPI is bigquery dataset client.

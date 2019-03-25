@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/evalphobia/google-api-go-wrapper/config"
-	"github.com/evalphobia/google-api-go-wrapper/vision"
+	"github.com/lukaszraczylo/google-api-go-wrapper/config"
+	"github.com/lukaszraczylo/google-api-go-wrapper/vision"
 )
 
 func main() {

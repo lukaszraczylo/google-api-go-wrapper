@@ -6,7 +6,7 @@ import (
 	SDK "google.golang.org/api/bigquery/v2"
 	"google.golang.org/api/googleapi"
 
-	"github.com/evalphobia/google-api-go-wrapper/config"
+	"github.com/lukaszraczylo/google-api-go-wrapper/config"
 )
 
 // TableAPI is bigquery table client.

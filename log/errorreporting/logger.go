@@ -7,7 +7,7 @@ import (
 	"cloud.google.com/go/errorreporting"
 	"google.golang.org/api/option"
 
-	"github.com/evalphobia/google-api-go-wrapper/config"
+	"github.com/lukaszraczylo/google-api-go-wrapper/config"
 )
 
 // Logger use Google Stackdriver error repoting.

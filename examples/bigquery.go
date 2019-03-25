@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/evalphobia/google-api-go-wrapper/bigquery"
-	"github.com/evalphobia/google-api-go-wrapper/config"
+	"github.com/lukaszraczylo/google-api-go-wrapper/bigquery"
+	"github.com/lukaszraczylo/google-api-go-wrapper/config"
 )
 
 func main() {

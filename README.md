@@ -27,7 +27,7 @@ Depends on the google's each libraries.
 Install google-api-go-wrapper and required packages using `go get` command:
 
 ```bash
-$ go get github.com/evalphobia/google-api-go-wrapper/...
+$ go get github.com/lukaszraczylo/google-api-go-wrapper/...
 ```
 
 # Usage
@@ -79,7 +79,7 @@ This do nothing. Just ignore errors.
 
 ```go
 import (
-    "github.com/evalphobia/google-api-go-wrapper/log"
+    "github.com/lukaszraczylo/google-api-go-wrapper/log"
 )
 
 client.SetLogger(&log.DummyLogger{})
@@ -91,7 +91,7 @@ StdLogger prints error messages on stderr.
 
 ```go
 import (
-    "github.com/evalphobia/google-api-go-wrapper/log"
+    "github.com/lukaszraczylo/google-api-go-wrapper/log"
 )
 
 client.SetLogger(&log.StdLogger{})
@@ -116,8 +116,8 @@ $ go get google.golang.org/api/analytics/v3
 
 ```go
 import (
-    "github.com/evalphobia/google-api-go-wrapper/analytics"
-    "github.com/evalphobia/google-api-go-wrapper/config"
+    "github.com/lukaszraczylo/google-api-go-wrapper/analytics"
+    "github.com/lukaszraczylo/google-api-go-wrapper/config"
 )
 
 ...
@@ -148,8 +148,8 @@ $ go get google.golang.org/api/bigquery/v2
 
 ```go
 import (
-    "github.com/evalphobia/google-api-go-wrapper/bigquery"
-    "github.com/evalphobia/google-api-go-wrapper/config"
+    "github.com/lukaszraczylo/google-api-go-wrapper/bigquery"
+    "github.com/lukaszraczylo/google-api-go-wrapper/config"
 )
 
 ...
@@ -177,8 +177,8 @@ type MySchema struct {
 
 ```go
 import (
-    "github.com/evalphobia/google-api-go-wrapper/bigquery"
-    "github.com/evalphobia/google-api-go-wrapper/config"
+    "github.com/lukaszraczylo/google-api-go-wrapper/bigquery"
+    "github.com/lukaszraczylo/google-api-go-wrapper/config"
 )
 
 ...
@@ -219,8 +219,8 @@ $ go get google.golang.org/api/monitoring/v3
 
 ```go
 import (
-    "github.com/evalphobia/google-api-go-wrapper/config"
-    "github.com/evalphobia/google-api-go-wrapper/stackdriver/logging"
+    "github.com/lukaszraczylo/google-api-go-wrapper/config"
+    "github.com/lukaszraczylo/google-api-go-wrapper/stackdriver/logging"
 )
 
 ...
@@ -247,8 +247,8 @@ if err != nil {
 
 ```go
 import (
-    "github.com/evalphobia/google-api-go-wrapper/config"
-    "github.com/evalphobia/google-api-go-wrapper/stackdriver/monitoring"
+    "github.com/lukaszraczylo/google-api-go-wrapper/config"
+    "github.com/lukaszraczylo/google-api-go-wrapper/stackdriver/monitoring"
 )
 
 ...
@@ -287,8 +287,8 @@ import (
     "fmt"
     "io/ioutil"
 
-    "github.com/evalphobia/google-api-go-wrapper/config"
-    "github.com/evalphobia/google-api-go-wrapper/vision"
+    "github.com/lukaszraczylo/google-api-go-wrapper/config"
+    "github.com/lukaszraczylo/google-api-go-wrapper/vision"
 )
 
 ...

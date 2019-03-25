@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/evalphobia/google-api-go-wrapper/config"
-	"github.com/evalphobia/google-api-go-wrapper/log/errorreporting"
+	"github.com/lukaszraczylo/google-api-go-wrapper/config"
+	"github.com/lukaszraczylo/google-api-go-wrapper/log/errorreporting"
 )
 
 func ExampleNew(t *testing.T) {

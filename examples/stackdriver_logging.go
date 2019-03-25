@@ -9,8 +9,8 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/evalphobia/google-api-go-wrapper/config"
-	"github.com/evalphobia/google-api-go-wrapper/stackdriver/logging"
+	"github.com/lukaszraczylo/google-api-go-wrapper/config"
+	"github.com/lukaszraczylo/google-api-go-wrapper/stackdriver/logging"
 )
 
 func main() {
