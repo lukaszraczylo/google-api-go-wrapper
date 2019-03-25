@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	SDK "google.golang.org/api/monitoring/v3"
+	SDK "cloud.google.com/go/monitoring/apiv3"
 
 	"github.com/evalphobia/google-api-go-wrapper/config"
 	"github.com/evalphobia/google-api-go-wrapper/log"

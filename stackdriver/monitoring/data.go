@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	SDK "google.golang.org/api/monitoring/v3"
+	SDK "cloud.google.com/go/monitoring/apiv3"
 )
 
 // Data is data struct for SDK.TimeSeries data.

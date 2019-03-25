@@ -1,6 +1,6 @@
 package monitoring
 
-import SDK "google.golang.org/api/monitoring/v3"
+import SDK "cloud.google.com/go/monitoring/apiv3"
 
 // Resource is wrapper struct for SDK.MonitoredResource.
 type Resource struct {
